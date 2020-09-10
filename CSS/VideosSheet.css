@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+	background: #F9F1F9;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+  background: #F8DBF8;
+  background-size: 100%;
+  background-position: center;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 10;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 30px;
+
+  position: relative;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+p1 {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+p2 {
+    position: absolute;
+    left: 10%;
+    top: 70%;
+}
+
+p3 {
+    position: absolute;
+    left: 10%;
+    top: 120%;
+}
+
+p4 {
+    position: absolute;
+    left: 10%;
+    top: 170%;
+}
+
+p5 {
+    position: absolute;
+    left: 10%;
+    top: 220%;
+}
+
+p6 {
+    position: absolute;
+    left: 10%;
+    top: 270%;
+}
+
+p7 {
+    position: absolute;
+    left: 40%;
+    margin-right: 20%;
+    font-size: 20px;
+    top: 20%;
+}
+
+p8 {
+    position: absolute;
+    left: 40%;
+    margin-right: 20%;
+    font-size: 20px;
+    top: 70%;
+}
+
+p9 {
+    position: absolute;
+    left: 40%;
+    margin-right: 20%;
+    font-size: 20px;
+    top: 120%;
+}
+
+p10 {
+    position: absolute;
+    left: 40%;
+    margin-right: 20%;
+    font-size: 20px;
+    top: 170%;
+}
+
+p11 {
+    position: absolute;
+    left: 40%;
+    margin-right: 20%;
+    font-size: 20px;
+    top: 220%;
+}
+
+p12 {
+    position: absolute;
+    left: 40%;
+    margin-right: 20%;
+    font-size: 20px;
+    top: 270%;
+}
